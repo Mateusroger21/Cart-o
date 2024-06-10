@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: rgb(142, 193, 238);
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/imagem/nuvem.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #8da2db;
+    width: 360px;
+    height: 520px;
+    flex-direction: column;
+    background-image: url("/imagem/fundoclaro.png");
+    gap: 40px;
+    text-align: center;
+}
+
+.imgMateus {
+    width: 174px;
+    border-radius: 100%;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #8da2db;
+}
+
+.nome {
+    font-family: 'Tiny5';
+    font-size: 40px;
+    text-shadow: 2px 2px #8da2db;
+}
+
+.descricao {
+    font-family: 'Tiny5';
+    font-weight: 650;
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px #8da2db;
+}
+
+.redesSociais {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.logoSociais {
+    height: 44px;
+    gap: 15px;
+}
+
+.logoInstagram {
+    height: 44px;
+}
+
+.logoLinkedin {
+    height: 42px;
+}
